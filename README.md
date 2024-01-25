@@ -1,5 +1,4 @@
-[# JavaSVMaker-Project
-SVMaker Project on Java written for enrollment of subject in Academy.
+# JavaSVMaker-Project
 
 ## Overview
 CV Maker is a Java application designed to assist users in creating their curriculum vitae (CV) with ease. The application utilizes JavaFX for the graphical user interface, providing a user-friendly experience for crafting resumes.
@@ -29,12 +28,12 @@ To run the application, follow these steps:
 ### Start and end menu
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-start.jpg" alt="Screenshot 1">
   <figcaption>Program start interface</figcaption>
 </figure>
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-success.jpg" alt="Screenshot 2">
   <figcaption>Message about successful PDF creation.</figcaption>
 </figure>
@@ -45,22 +44,22 @@ To run the application, follow these steps:
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-empty.jpg" alt="Screenshot 3">
   <figcaption>Empty field error.</figcaption>
 </figure>
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-emptyimage.jpg" alt="Screenshot 4">
   <figcaption>No image error.</figcaption>
 </figure>
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-characters.jpg" alt="Screenshot 5">
   <figcaption>Too many characters error.</figcaption>
 </figure>
 
-<figure>
+<figure style="flex-basis: 45%;">
   <img src="demo/md-images/Screenshot-digits.jpg" alt="Screenshot 6">
   <figcaption>Digits in the wrong fields error.</figcaption>
 </figure>
@@ -69,8 +68,10 @@ To run the application, follow these steps:
 
 ### Image of the final document
 
-![Screenshot 1](demo/md-images/Screenshot-pdf.png)
-*Screenshot from a Macbook.*
+<figure style="flex-basis: 70%;">
+  <img src="demo/md-images/Screenshot-pdf.png" alt="Screenshot of the final document">
+  <figcaption>Screenshot from a Macbook.</figcaption>
+</figure>
 
 ## File Structure
 - `HelloApplication.java`: The main Java class responsible for launching the JavaFX application and setting up the initial stage.
